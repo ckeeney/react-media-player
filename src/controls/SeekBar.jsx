@@ -45,7 +45,7 @@ class SeekBar extends Component {
         onMouseDown={this._handleMouseDown}
         onMouseUp={this._handleMouseUp}
         onChange={this._handleChange}
-        className={className}
+        className={className + 'ssr'}
         style={{
           backgroundSize: (currentTime * 100 / duration) + '% 100%',
           ...style
